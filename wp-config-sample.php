@@ -66,7 +66,7 @@ define('NONCE_SALT',       'put your unique phrase here');
 $table_prefix  = 'wp_';
 
 define('WP_CONTENT_URL', 'http://localhost/wordpress/WP-New/module');
-define('WP_content_DIR', dirname(ABSPATH) . '/module');
+define('WP_CONTENT_DIR', dirname(ABSPATH) . '/module');
 
 /**
  * For developers: WordPress debugging mode.
